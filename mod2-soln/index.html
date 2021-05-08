@@ -1,88 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
-
 <meta charset="utf-8">
-<title>Our Menu</title>
+<meta name="viewport" content="width= device-width, initial-scale= 1">
+<title>Assignment solution for Module 2</title>
+<link rel="stylesheet" href="css/style.css">
 
 <style>
-*{
-	box-sizing: border-box;
-
-}
+	
 #italic{
 	font-style: italic;
-}
-.row{
-	width:100%;
-}
-
-
-h1{
-	text-align: center;
-	font-size: 175%;
-	margin-bottom: 50px;
-	font-family: Georgia, Garamond, serif;
-}
-
-p{
-	width: 33%;
-	height:150px;
-	background-color: #808080;
-	padding: 50px 10px 10px 10px;
-	border: 1px solid black;
-	float: left;
-	margin: 2px;
-	text-align: center;
-	overflow: auto;
-	font-family: Arial, Helvetica, sans-serif;
-}
-
-#container{
-	position: relative;
-}
-
-#p1{
-	background-color: #4d0000;
-	color: white;
-  	position: absolute;
-  	top: 0;
-  	right: 0;
-  	font-size: 125%;
-  	font-weight: bold;
-  	height: 50px;
- 	width: 120px;
-  	padding: 10px;
-  	text-align: center;
-  	font-family: Georgia, Garamond, serif;
-}
-
-#p2{
-	background-color: #ff8080;
-  	position: absolute;
-  	top: 0;
-  	right: 0;
-  	font-size: 125%;
-  	font-weight: bold;
-  	height: 50px;
- 	width: 120px;
-  	padding: 10px;
-  	text-align: center;
-  	font-family: Georgia, Garamond, serif;
-}
-
-#p3{
-	background-color: #990000;
-  	position: absolute;
-  	top: 0;
-  	right: 0;
-  	font-size: 125%;
-  	font-weight: bold;
-  	height: 50px;
- 	width: 120px;
-  	padding: 10px;
-  	text-align: center;
-  	font-family: Georgia, Garamond, serif;
 }
 
 </style>
@@ -90,20 +17,20 @@ p{
 </head>
 <body>
 	<h1>Our Menu</h1>
-<div>
-	<div id="container">
+<div class="row">
+	<div class="col-lg-4 col-md-6 col-sm-12" id="container1">
 	<p id="p1">Pork</p>
 	<p>Slow cooked, hand-pulled juicy pork meat piled high in a fresh bun, topped with homemade coleslaw and the Chef's special BBQ sauce.</p>
 	</div>
 
-	<div id="container">
+	<div class="col-lg-4 col-md-6 col-sm-12" id="container2">
 	<p id="p2">Shrimp</p>
 	<p>Garlic parmesan crusted shrimp are oven roasted and served over a bed of linguine tossed with sun dried tomato scampi sauce.<span id="italic"> Chef's Choice!</span></p>
 	</div>
 
-	<div id="container">
-	<p>Original crispy chicken tenders, crisp lettuce and fresh veggies topped with smoked bacon and Monterey jack cheese. Served with zety honey mustard dressing and warm flatbread.</p>
+	<div class="col-lg-4 col-md-12 col-sm-12" id="container3">
 	<p id="p3">Chicken</p>
+	<p>Original crispy chicken tenders, crisp lettuce and fresh veggies topped with smoked bacon and Monterey jack cheese. Served with zety honey mustard dressing and warm flatbread.</p>
 	</div>
 
 </div>
