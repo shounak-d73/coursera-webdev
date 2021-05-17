@@ -52,11 +52,15 @@ h2{
 
 #nav-list{
 	margin-top: 5px;
+	visibility: collapse;
 }
 
+@media(max-width: 768px){
 #nav-list a{
 	color: #951C49;
 	text-align: center;
+	visibility: visible;
+	}
 }
 
 #nav-list a:hover {
@@ -74,4 +78,3 @@ h2{
 #collapsable-nav a{
 	font-size: 1.1em;
 }
-
