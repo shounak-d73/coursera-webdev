@@ -28,6 +28,7 @@ font-family: "Lucida Console", monospace;
 	margin-top: 0;
 }
 
+
 section{
 	height:1000px;
 	background-color: #DAA520;
@@ -51,20 +52,17 @@ h2{
 }
 
 #nav-list{
-	margin-top: 5px;
-	visibility: collapse;
+	margin-top: 0;
 }
 
-@media(max-width: 768px){
 #nav-list a{
 	color: #951C49;
 	text-align: center;
-	visibility: visible;
 	}
-}
+
 
 #nav-list a:hover {
-	background: #E7E7E7;
+	background: #DAA520;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
@@ -77,4 +75,13 @@ h2{
 
 #collapsable-nav a{
 	font-size: 1.1em;
+	font-weight: bold;
+	color: #fff;
+	background-color: #2F4F4F;
+	text-shadow: 1px 1px 1px #222;
+
+}
+
+.row{
+	margin: 20px;
 }
