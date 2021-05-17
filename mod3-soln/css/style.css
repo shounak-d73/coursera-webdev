@@ -62,3 +62,16 @@ h2{
 #nav-list a:hover {
 	background: #E7E7E7;
 }
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+	border: 2px solid #DAA520;
+}
+
+.navbar-header button.navbar-toggle{
+	clear: both;
+}
+
+#collapsable-nav a{
+	font-size: 1.1em;
+}
+
